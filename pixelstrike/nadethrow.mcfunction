@@ -11,15 +11,20 @@ tp @e[type=minecraft:area_effect_cloud,tag=direction,distance=19.8..20.2] @s
 scoreboard players operation @s pos_x -= @e[type=area_effect_cloud,tag=direction,limit=1,sort=nearest] pos_x
 scoreboard players operation @s pos_y -= @e[type=area_effect_cloud,tag=direction,limit=1,sort=nearest] pos_y
 scoreboard players operation @s pos_z -= @e[type=area_effect_cloud,tag=direction,limit=1,sort=nearest] pos_z
-execute anchored eyes positioned ^ ^ ^ run summon armor_stand ^ ^ ^0.1 {Invisible:1b,Invulnerable:1b,Small:1b,CustomName:'{"text":"psNade"}'}
+execute anchored eyes positioned ^ ^ ^ run summon armor_stand ^ ^ ^0.5 {Invisible:1b,Invulnerable:1b,Small:1b,CustomName:'{"text":"psNade"}'}
 execute at @e[type=armor_stand,name=psNade,limit=1,sort=nearest] facing entity @s feet run tp @e[type=armor_stand,name=psNade,limit=1,sort=nearest] ~ ~ ~ ~180 0
-playsound minecraft:entity.guardian.hurt master @a[distance=..64] ~ ~ ~ 1 2
-execute as @e[type=armor_stand,name=psNade,limit=1,sort=nearest] at @s run execute store result entity @s Motion[0] double -0.014 run scoreboard players get @p pos_x
+playsound minecraft:entity.snowball.throw master @a[distance=..8] ~ ~ ~ 0.5 0.5
+execute as @e[type=armor_stand,name=psNade,limit=1,sort=nearest] at @s run execute store result entity @s Motion[0] double -0.02 run scoreboard players get @p pos_x
 execute as @e[type=armor_stand,name=psNade,limit=1,sort=nearest] at @s run execute store result entity @s Motion[1] double -0.014 run scoreboard players get @p pos_y
-execute as @e[type=armor_stand,name=psNade,limit=1,sort=nearest] at @s run execute store result entity @s Motion[2] double -0.014 run scoreboard players get @p pos_z
+execute as @e[type=armor_stand,name=psNade,limit=1,sort=nearest] at @s run execute store result entity @s Motion[2] double -0.02 run scoreboard players get @p pos_z
+
+scoreboard players remove @s psNadeMax 1
 
 execute if entity @s[nbt={SelectedItem:{tag:{psSmoke:1}}}] run tag @e[type=armor_stand,name=psNade,limit=1,sort=nearest] add psSmoke
+execute if entity @s[nbt={SelectedItem:{tag:{psSmoke:1}}}] run clear @s minecraft:carrot_on_a_stick{psSmoke:1} 1
 execute if entity @s[nbt={SelectedItem:{tag:{psFlash:1}}}] run tag @e[type=armor_stand,name=psNade,limit=1,sort=nearest] add psFlash
+execute if entity @s[nbt={SelectedItem:{tag:{psFlash:1}}}] run clear @s minecraft:carrot_on_a_stick{psFlash:1} 1
 execute if entity @s[nbt={SelectedItem:{tag:{psMolly:1}}}] run tag @e[type=armor_stand,name=psNade,limit=1,sort=nearest] add psMolly
-
-clear @s minecraft:carrot_on_a_stick{psNade:1}
+execute if entity @s[nbt={SelectedItem:{tag:{psMolly:1}}}] run clear @s minecraft:carrot_on_a_stick{psMolly:1} 1
+execute if entity @s[nbt={SelectedItem:{tag:{psHE:1}}}] run tag @e[type=armor_stand,name=psNade,limit=1,sort=nearest] add psHE
+execute if entity @s[nbt={SelectedItem:{tag:{psHE:1}}}] run clear @s minecraft:carrot_on_a_stick{psHE:1} 1

@@ -1,3 +1,5 @@
+#Reverses then removes a little bit of vertical velocity after hitting the ground. Kinda buggy
+
 scoreboard players set @s psBounce 0
 
 execute store result score @s mot_y run data get entity @s Motion[1] 100

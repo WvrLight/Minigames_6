@@ -1,7 +1,7 @@
+#Detect any entity ~30 blocks above and below the armor stand, then check line of sight.
+
 scoreboard players add @s lasercount 1
 
-execute positioned ~ ~-20 ~ run scoreboard players set @a[dy=20] psFlashed 0
-execute positioned ~ ~-20 ~ run effect give @a[dy=20] blindness 5 1 true
-execute positioned ~ ~-20 ~ run tag @a[dy=20] add psFlashed
+execute positioned ~ ~-30 ~ as @a[dy=60,dx=0,dz=0] run function datapack:pixelstrike/flashcheck
 
-execute if entity @s[scores={lasercount=..30}] if block ~ ~1.5 ~ air positioned ^ ^ ^1 as @s run function datapack:pixelstrike/flashcast2
+execute if entity @s[scores={lasercount=..30}] if block ~ ~0.5 ~ air positioned ^ ^ ^1 as @s run function datapack:pixelstrike/flashcast2

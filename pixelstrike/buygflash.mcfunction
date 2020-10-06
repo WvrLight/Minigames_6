@@ -1,0 +1,4 @@
+give @s carrot_on_a_stick{display:{Name:'{"text":"Flashbang Grenade","color":"blue","bold":true}',Lore:['{"text":"Blinds enemies in line of sight.","color":"dark_gray"}']},HideFlags:6,Unbreakable:1b,CustomModelData:851,psNade:1,psFlash:1,AttributeModifiers:[{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:0,Operation:0,UUID:[I;0,524216,0,558746],Slot:"mainhand"},{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:0,Operation:0,UUID:[I;0,732240,0,400931],Slot:"offhand"}]} 1
+tellraw @s [{"text":"Purchased","color":"yellow","bold":true},{"text":" [Flashbang Grenade]","color":"dark_green"}]
+scoreboard players add @s psNadeMax 1
+scoreboard players remove @s psMoney 200

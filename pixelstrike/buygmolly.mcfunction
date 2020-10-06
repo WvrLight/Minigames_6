@@ -1,0 +1,4 @@
+give @s carrot_on_a_stick{display:{Name:'{"text":"Incendiary Grenade","color":"red","bold":true}',Lore:['{"text":"Sets the hit area on fire.","color":"dark_gray"}']},HideFlags:6,Unbreakable:1b,psNade:1,psMolly:1,CustomModelData:852,AttributeModifiers:[{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:0,Operation:0,UUIDLeast:558746,UUIDMost:524216,Slot:"mainhand"},{AttributeName:"generic.attackDamage",Name:"generic.attackDamage",Amount:0,Operation:0,UUIDLeast:400931,UUIDMost:732240,Slot:"offhand"}]} 1
+tellraw @s [{"text":"Purchased","color":"yellow","bold":true},{"text":" [HE Grenade]","color":"dark_green"}]
+scoreboard players add @s psNadeMax 1
+scoreboard players remove @s psMoney 300

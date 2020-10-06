@@ -1,3 +1,5 @@
+#Removes a little bit of horizontal velocity after hitting the ground. Kinda buggy
+
 execute store result score @s mot_x run data get entity @s Motion[0] 100
 execute as @s at @s run execute store result entity @s Motion[0] double -0.008 run scoreboard players get @s mot_x
 
