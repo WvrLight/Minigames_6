@@ -1,2 +1,0 @@
-tellraw @a ["",{"text":"Block","bold":true,"color":"gold"},{"text":"hunter","bold":true,"color":"gold"},{"text":" will be released in","color":"green"},{"text":" 1....","color":"green"}]
-playsound minecraft:block.note_block.bell master @a ~ ~ ~ 100 0
