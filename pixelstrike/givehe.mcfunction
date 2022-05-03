@@ -1,0 +1,5 @@
+execute if score @s psNadeMax matches 0 run item replace entity @s hotbar.2 with carrot_on_a_stick{display:{Name:'{"text":"Frag Grenade","color":"dark_green","bold":true}',Lore:['{"text":"Explodes after a short duration or after a player is nearby the grenade. Damages anyone in the hit area.","color":"gray"}']},HideFlags:4,Unbreakable:1b,CustomModelData:853,psNade:1,psHE:1} 1
+
+execute if score @s psNadeMax matches 1 run item replace entity @s hotbar.3 with carrot_on_a_stick{display:{Name:'{"text":"Frag Grenade","color":"dark_green","bold":true}',Lore:['{"text":"Explodes after a short duration or after a player is nearby the grenade. Damages anyone in the hit area.","color":"gray"}']},HideFlags:4,Unbreakable:1b,CustomModelData:853,psNade:1,psHE:1} 1
+
+execute if score @s psNadeMax matches 2 run item replace entity @s hotbar.4 with carrot_on_a_stick{display:{Name:'{"text":"Frag Grenade","color":"dark_green","bold":true}',Lore:['{"text":"Explodes after a short duration or after a player is nearby the grenade. Damages anyone in the hit area.","color":"gray"}']},HideFlags:4,Unbreakable:1b,CustomModelData:853,psNade:1,psHE:1} 1

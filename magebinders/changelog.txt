@@ -1,0 +1,21 @@
+v0.1
+- base system
+- added proj
+- added base map
+
+v0.2
+- added beam
+- added dash
+- added blink
+- added shop
+
+v0.3
+- added proj split
+- added more maps
+- added basic match system
+
+v0.4
+- reworked match system
+- added menu for starting games
+- major bug fixes
+- added homing

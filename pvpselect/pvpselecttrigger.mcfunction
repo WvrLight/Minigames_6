@@ -1,0 +1,11 @@
+execute as @a[scores={pvpselect=1..}] run scoreboard players operation current pvpselect = @s pvpselect
+execute if entity @a[scores={pvpselect=1..}] run function datapack:pvpselect/showclass
+scoreboard players reset @a[scores={pvpselect=1..}] pvpselect
+
+execute if entity @e[tag=select,nbt={HurtTime:10s}] run function datapack:pvpselect/pvpselectambient
+
+schedule function datapack:pvpselect/pvpselecttrigger 1t
+
+#execute unless entity @e[tag=select,name=Previous] run summon slime -60 65.5 -39 {NoGravity:1b,Silent:1b,Glowing:1b,CustomNameVisible:1b,PersistenceRequired:1b,NoAI:1b,Health:999f,Size:0,Tags:["select","sclass"],Passengers:[{id:"minecraft:area_effect_cloud",CustomNameVisible:1b,Duration:2147483647,CustomName:'{"text":"Previous","color":"aqua","bold":true}'}],CustomName:'{"text":"Previous","color":"gold","bold":true}',ActiveEffects:[{Id:14b,Amplifier:1b,Duration:999,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:999}]}
+#execute unless entity @e[tag=select,name=Next] run summon slime -60 65.5 -41 {NoGravity:1b,Silent:1b,Glowing:1b,CustomNameVisible:1b,PersistenceRequired:1b,NoAI:1b,Health:999f,Size:0,Tags:["select","sclass"],Passengers:[{id:"minecraft:area_effect_cloud",CustomNameVisible:1b,Duration:2147483647,CustomName:'{"text":"Next","color":"aqua","bold":true}'}],CustomName:'{"text":"Next","color":"gold","bold":true}',ActiveEffects:[{Id:14b,Amplifier:1b,Duration:999,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:999}]}
+#execute unless entity @e[tag=select,name=Select] run summon slime -60 65.5 -40 {NoGravity:1b,Silent:1b,Glowing:1b,CustomNameVisible:1b,PersistenceRequired:1b,NoAI:1b,Health:999f,Size:0,Tags:["select","sclass"],Passengers:[{id:"minecraft:area_effect_cloud",CustomNameVisible:1b,Duration:2147483647,CustomName:'{"text":"Select","color":"gold","bold":true}'}],CustomName:'{"text":"Select","color":"gold","bold":true}',ActiveEffects:[{Id:14b,Amplifier:1b,Duration:999,ShowParticles:0b}],Attributes:[{Name:generic.max_health,Base:999}]}

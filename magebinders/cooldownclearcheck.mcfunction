@@ -1,0 +1,1 @@
+execute if score @s mbTeam = @e[tag=mbCastPoint,limit=1] mbTeam if score @s mbSpellSlot = @e[tag=mbCastPoint,limit=1] mbSpellSlot if score cooldownTemp mbDummy > @s mbSpellCooldown run scoreboard players operation cooldownTemp mbDummy = @s mbSpellCooldown

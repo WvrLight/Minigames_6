@@ -1,0 +1,34 @@
+CHANGELOG
+v0.1
+- added lunge attack for monsters
+- added Belcher power
+
+
+DS MONSTERS
+- all monsters have a lunge attack
+    - gain a speedboost, when near a survivor, will hit that survivor, causing X damage
+    - after a lunge attack, your movement speed is reduced
+- survivors leave scratch marks, and blood trails if injured
+- monsters have 1 unique power and can have 2 extra powers
+
+MONSTER TYPES:
+- BLOODHOUND
+      - can channel its power near a blood trail to detect the survivor leaving that specific blood trail for X seconds
+      - during this duration, its movement speed while nearby blood trails is greatly increased
+      - hitting a survivor will end the duration
+(for this power to work, each blood trail must be an armor stand with a scoreboard value that is the same as a player's scoreboard value)
+- BELCHER
+      - can channel its power for X seconds, can release after channeling to launch fire projectiles in the direction its looking, fire remains for Y seconds
+      - survivors that are hit by the fire are hit by X damage, and gain fire damage immunity for a short duration
+      - the belcher can walk through the fire, but is slowed
+- PLAGUEBEAST
+      - can launch a toxic orb projectile, when it lands on the ground, 
+      - it will explode after X seconds, or when a survivor or the plaguebeast walks near it
+      - any survivor in the area of effect will be slowed and cause a specific sound, no effect on plaguebeast
+
+
+EXTRA POWERS:
+      - Predator Instinct: after hooking a survivor, show the aura of the farthest survivor from you for X seconds
+      - Electric Affinity: after hooking a survivor, show the generator with the most progress for X seconds
+      - Thirst: after hooking a survivor, gain an X speedboost for Y seconds until the next lunge
+      - Surge: after downing a survivor, all gens in X radius are damaged by Y%

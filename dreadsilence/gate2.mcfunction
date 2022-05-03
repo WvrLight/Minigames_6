@@ -1,0 +1,1 @@
+execute if score dsGateSwitch2 dsDummy matches ..599 run scoreboard players add dsGateSwitch2 dsDummy 1

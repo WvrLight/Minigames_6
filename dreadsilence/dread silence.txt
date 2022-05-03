@@ -1,0 +1,39 @@
+Dread Silence:
+
+How survivors win:
+
+Open the Gate - Fix 5 out of 7 generators - Open the gate
+
+Fix the Car -  Find 4 Wheels, Car Battery, 1 Fuel Tank to repair car. Need Car Keys to start the car and the car leaves in 30 seconds after starting, any survivors near the car on time end survive.
+
+Kill the Monster, Unlock Armory with 10 Lockpicks, Need to find bullets to load the gun and then shoot monster 3 times.
+
+Items:
+
+Toolbox - Repairs generators faster
+Bear Trap - Can trap monster/survivors
+Night Vision Goggles - Limited Battery, provides night vision
+Bandages - Heal self or heal others faster
+Bag of Leaves - Activate to drop leave and hide your scratch marks for 3 seconds
+Shoe Mufflers - Activate to muffle the sound of your sprinting for 3 seconds
+Camoflauge - Having this in your hotbar disguises you as leaves. Reduces movement speed. When struck by killer while camoflauged, the item breaks and reduces damage.
+Tape Recorder - Records sounds to distract monster. Right click while running to record footsteps. Right click near running generator 20%+ to record generator sounds. After recording right click again to drop the record and play the sound.
+Map - highlight nearby (EQUIVALENT OF PALLETS IN DS)
+
+
+DS MONSTERS
+- all monsters have a lunge attack
+    - gain a speedboost, when near a survivor, will hit that survivor, causing it to lose a health state
+    - after a lunge attack, your movement speed is reduced
+- survivors leave scratch marks, and blood trails if injured
+- monsters have 1 unique power and can have 2 extra powers
+
+MONSTER TYPES:
+- BLOODHOUND
+      -  can channel its power near a blood trail to detect the survivor leaving that specific blood trail for X seconds
+      - during this duration, its movement speed while tracking blood trails is greatly increased
+- BELCHER
+      - can channel its power for X seconds, can release after channeling to launch fire projectiles in the direction its looking, fire remains for Y seconds
+
+EXTRA POWERS:
+      - after hooking a survivor, show the aura of the farthest survivor from you for X seconds 

@@ -1,0 +1,13 @@
+summon minecraft:armor_stand -57 68 -45 {CustomNameVisible:1b,NoGravity:1b,Invulnerable:1b,Marker:1b,Invisible:1b,CustomName:'{"text":"SKYRANGER","color":"gold","bold":true}',Tags:["class"]}
+summon minecraft:armor_stand -57 67.25 -45 {CustomNameVisible:1b,NoGravity:1b,Invulnerable:1b,Marker:1b,Invisible:1b,Tags:["class"],CustomName:'[{"text":"Skill: ","color":"aqua","bold":true},{"text":"Arrow Storm","color":"white","bold":false}]'}
+summon minecraft:armor_stand -57 67 -45 {CustomNameVisible:1b,NoGravity:1b,Invulnerable:1b,Marker:1b,Invisible:1b,Tags:["class"],CustomName:'{"text":"Forge an enchanted greatcrossbow that","color":"white"}'}
+summon minecraft:armor_stand -57 66.75 -45 {CustomNameVisible:1b,NoGravity:1b,Invulnerable:1b,Marker:1b,Invisible:1b,Tags:["class"],CustomName:'{"text":"can fire rapidly for a short duration.","color":"white"}'}
+
+summon minecraft:item -57 66 -45 {NoGravity:1b,Age:-32768,PickupDelay:32767,Item:{id:"minecraft:carrot_on_a_stick",Count:1b,tag:{CustomModelData:2}},Tags:["class"]}
+
+item replace entity @e[tag=classdummy] weapon.mainhand with minecraft:crossbow{Enchantments:[{id:"minecraft:quick_charge",lvl:1s}]}
+item replace entity @e[tag=classdummy] weapon.offhand with minecraft:crossbow{Enchantments:[{id:"minecraft:quick_charge",lvl:1s}]}
+item replace entity @e[tag=classdummy] armor.head with minecraft:player_head{SkullOwner:{Id:[I;775578546,1647660647,-1461812726,224797898],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI2ZjkyYWY3MmQzODM2NjQ3ZjIxNTE2YWMzMGEzMDY2Njg1MjZjZGQwNjM1MGY3YzNiNjUxNTA4MTVkMjYxMiJ9fX0="}]}}}
+item replace entity @e[tag=classdummy] armor.chest with minecraft:leather_chestplate{display:{color:1208030},Unbreakable:1,AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Slot:"chest",Amount:5,Operation:0,UUIDMost:44042,UUIDLeast:139498}],Enchantments:[{id:"minecraft:protection",lvl:1}],HideFlags:4} 1
+item replace entity @e[tag=classdummy] armor.legs with minecraft:leather_leggings{display:{Name:"{\"text\":\"Sunplate Greaves\"}",color:16361222},HideFlags:4,Unbreakable:1,AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Slot:"legs",Amount:1,Operation:0,UUIDMost:81759,UUIDLeast:110420}]} 1
+item replace entity @e[tag=classdummy] armor.feet with minecraft:chainmail_boots{display:{Name:"{\"text\":\"Airwalker Boots\"}",Lore:["Tread lightly."]},HideFlags:4,Unbreakable:1,Enchantments:[{id:"minecraft:feather_falling",lvl:6}],AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Slot:"feet",Amount:1,Operation:0,UUIDMost:78830,UUIDLeast:107773}]} 1

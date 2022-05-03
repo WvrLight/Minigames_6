@@ -1,0 +1,2 @@
+tag @s add bcHolder
+tellraw @a [{"selector":"@a[tag=bcHolder]","color":"red","bold":true},{"text":" has ","color":"white","bold":false},{"text":"captured","color":"gold","bold":true},{"text":" the war banner!","color":"white","bold":false}]

@@ -1,0 +1,5 @@
+execute if score @s psNadeMax matches 0 run item replace entity @s hotbar.2 with carrot_on_a_stick{display:{Name:'{"text":"Molotov","color":"red","bold":true}',Lore:['{"text":"Sets the hit area on fire.","color":"gray"}']},HideFlags:4,Unbreakable:1b,psNade:1,psMolly:1,CustomModelData:852} 1
+
+execute if score @s psNadeMax matches 1 run item replace entity @s hotbar.3 with carrot_on_a_stick{display:{Name:'{"text":"Molotov","color":"red","bold":true}',Lore:['{"text":"Sets the hit area on fire.","color":"gray"}']},HideFlags:4,Unbreakable:1b,psNade:1,psMolly:1,CustomModelData:852} 1
+
+execute if score @s psNadeMax matches 2 run item replace entity @s hotbar.4 with carrot_on_a_stick{display:{Name:'{"text":"Molotov","color":"red","bold":true}',Lore:['{"text":"Sets the hit area on fire.","color":"gray"}']},HideFlags:4,Unbreakable:1b,psNade:1,psMolly:1,CustomModelData:852} 1

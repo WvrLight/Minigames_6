@@ -1,0 +1,1 @@
+setblock -61 69 154 air destroy

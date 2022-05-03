@@ -1,0 +1,6 @@
+scoreboard players reset @s mbStart
+
+tellraw @a [{"text":"MAGEBINDERS","color":"aqua","bold":true},{"text":"\n\n"},{"text":"[Play as Red]","color":"dark_red","clickEvent":{"action":"run_command","value":"/trigger mbStart set 2"}},{"text":"\n[Play as Blue]","color":"blue","clickEvent":{"action":"run_command","value":"/trigger mbStart set 3"}},{"text":"\n[Play as Yellow]","color":"yellow","clickEvent":{"action":"run_command","value":"/trigger mbStart set 4"}},{"text":"\n[Play as Green]","color":"green","clickEvent":{"action":"run_command","value":"/trigger mbStart set 5"}},{"text":"\n[Play as Orange]","color":"gold","clickEvent":{"action":"run_command","value":"/trigger mbStart set 6"}},{"text":"\n[Play as Pink]","color":"light_purple","clickEvent":{"action":"run_command","value":"/trigger mbStart set 7"}},{"text":"\n[Play as Black]","color":"gray","clickEvent":{"action":"run_command","value":"/trigger mbStart set 8"}},{"text":"\n[Play as White]","color":"white","clickEvent":{"action":"run_command","value":"/trigger mbStart set 9"}},{"text":"\n\n[Leave Game]","color":"dark_gray","bold":false,"clickEvent":{"action":"run_command","value":"/trigger mbStart set 10"}}]
+
+#For start trigger player only
+tellraw @s [{"text":"\n\n"},{"text":"[Start Game]\n","color":"gold","bold":true,"clickEvent":{"action":"run_command","value":"/trigger mbStart set 100"}}]

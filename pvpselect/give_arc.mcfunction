@@ -1,0 +1,15 @@
+give @s iron_sword{display:{Name:'{"text":"Orb of Power","color":"blue","bold":true,"italic":true}',Lore:['{"text":"The purest form of greatness.","color":"dark_purple"}']},HideFlags:5,Unbreakable:1b,Enchantments:[{id:"minecraft:sweeping",lvl:1s}],AttributeModifiers:[{AttributeName:"generic.attack_speed",Name:"generic.attack_speed",Amount:3,Operation:0,UUID:[I;0,769139,0,386618],Slot:"mainhand"},{AttributeName:"generic.attack_damage",Name:"generic.attack_damage",Amount:3,Operation:0,UUID:[I;0,407151,0,404271],Slot:"mainhand"}]} 1
+
+item replace entity @s weapon.offhand with minecraft:carrot_on_a_stick{display:{Name:"{\"text\":\"Arcane Barrage\",\"color\":\"gold\",\"bold\":true}",},Unbreakable:1,Enchantments:[{id:"minecraft:power",lvl:1}],barrageu:1,HideFlags:5,CustomModelData:21} 1
+
+give @s minecraft:carrot_on_a_stick{display:{Name:"{\"text\":\"Orb of Destruction\",\"color\":\"gold\",\"bold\":true}",},Unbreakable:1,Enchantments:[{id:"minecraft:power",lvl:1}],orbd:1,HideFlags:5,CustomModelData:20} 1
+
+item replace entity @s armor.head with player_head{display:{Name:'{"text":"Arcane Hood","color":"green","bold":true,"italic":true}'},AttributeModifiers:[{AttributeName:"generic.max_health",Name:"generic.max_health",Amount:20,Operation:0,UUID:[I;0,315367,0,878604],Slot:"head"}],SkullOwner:{Id:[I;-1363481196,-2023931270,-1650736061,-1862543174],Properties:{textures:[{Value:"eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGQ4OGZhNzRkYzkyZWUxMDQ0NmVmYjg2YWQ1YzZjOTVhMzk4ZTMxMjU5Y2RlNTIxYWE3MzIyZWY5MmRjMjEzYiJ9fX0="}]}}} 1
+
+item replace entity @s armor.chest with leather_chestplate{display:{Name:'{"text":"Arcane Mantle","color":"green","bold":true,"italic":true}',color:4637757},HideFlags:4,Unbreakable:1b,Enchantments:[{id:"minecraft:blast_protection",lvl:1s},{id:"minecraft:projectile_protection",lvl:1s}],AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:4,Operation:0,UUID:[I;0,315367,0,878604],Slot:"chest"}]} 1
+
+item replace entity @s armor.legs with leather_leggings{display:{Name:'{"text":"Arcane Kilt","color":"green","bold":true,"italic":true}',color:4637757},HideFlags:5,Unbreakable:1b,Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:4,Operation:0,UUID:[I;0,315367,0,878604],Slot:"legs"}]} 1
+
+item replace entity @s armor.feet with leather_boots{display:{Name:'{"text":"Arcane Shoes","color":"green","bold":true,"italic":true}',color:4637757},HideFlags:5,Unbreakable:1b,Enchantments:[{id:"minecraft:unbreaking",lvl:1s}],AttributeModifiers:[{AttributeName:"generic.armor",Name:"generic.armor",Amount:3,Operation:0,UUID:[I;0,315367,0,878604],Slot:"feet"},{AttributeName:"generic.movement_speed",Name:"generic.movement_speed",Amount:0.1,Operation:1,UUID:[I;0,996454,0,241637],Slot:"feet"}]} 1
+
+tag @s add arc
