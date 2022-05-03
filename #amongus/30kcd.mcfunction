@@ -1,0 +1,2 @@
+setblock 184 66 -253 dark_oak_wall_sign[facing=west]{Text2:'{"text":"Kill Cooldown:","color":"white","italic":false,"clickEvent":{"action":"run_command","value":"/function datapack:amongus/35kcd"}}',Text3:'{"text":"30 seconds","color":"gold","bold":true,"italic":false}'} destroy
+scoreboard players set killcd audummy 30
