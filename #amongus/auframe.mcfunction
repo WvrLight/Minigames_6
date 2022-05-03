@@ -1,1 +1,0 @@
-tag @e[type=item_frame,limit=1,sort=nearest] add auframe

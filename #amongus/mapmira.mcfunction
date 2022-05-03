@@ -1,2 +1,0 @@
-setblock 184 67 -252 dark_oak_wall_sign[facing=west]{Text2:'{"text":"Map:","color":"white","italic":false,"clickEvent":{"action":"run_command","value":"/function datapack:amongus/mapskeld"}}',Text3:'{"text":"Mira HQ","color":"gold","bold":true,"italic":false}'} destroy
-scoreboard players set aumap audummy 3

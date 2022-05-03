@@ -1,2 +1,0 @@
-setblock 184 65 -251 dark_oak_wall_sign[facing=west]{Text2:'{"text":"Confirm Ejects:","color":"white","italic":false,"clickEvent":{"action":"run_command","value":"/function datapack:amongus/noejects"}}',Text3:'{"text":"YES","color":"gold","bold":true,"italic":false}'} destroy
-scoreboard players set confirmejects audummy 1

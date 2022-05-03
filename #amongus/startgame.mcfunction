@@ -1,2 +1,0 @@
-scoreboard players set timer audummy 5
-setblock 184 68 -252 minecraft:dark_oak_wall_sign[facing=west]{Text2:'{"text":"Cancel Game","color":"red","italic":false,"clickEvent":{"action":"run_command","value":"/function datapack:amongus/cancelgame"}}',Text3:'{"text":"Among Us","color":"gold","bold":true,"italic":false}'} destroy

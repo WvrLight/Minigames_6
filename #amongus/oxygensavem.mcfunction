@@ -1,5 +1,0 @@
-execute if score oxygencheckm audummy matches 0 run execute unless score @e[limit=1,sort=nearest,tag=oxygencheckm,distance=..1.5] audummy matches 10 run scoreboard players add @e[limit=1,sort=nearest,tag=oxygencheckm,scores={audummy=0..9},distance=..1.5] audummy 1
-execute unless score @e[limit=1,sort=nearest,tag=oxygencheckm,distance=..1.5] audummy matches 10 run execute as @s at @s run playsound minecraft:block.note_block.bit master @a ~ ~ ~ 1 0
-execute if score @e[limit=1,sort=nearest,tag=oxygencheckm,distance=..1.5] audummy matches 10 run title @s actionbar ["",{"text":"Oxygen Depletion keypad bypass successfully completed.","color":"green"}]
-execute if score @e[limit=1,sort=nearest,tag=oxygencheckm,distance=..1.5] audummy matches 10 run playsound minecraft:entity.player.levelup master @a ~ ~ ~ 1 1.5
-scoreboard players set @s aufatigue 0

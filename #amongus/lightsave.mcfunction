@@ -1,1 +1,0 @@
-setblock ~ ~ ~ minecraft:repeating_command_block{Command:"execute unless score lightscheck audummy matches 5 run scoreboard players add lightscheck audummy 1",auto:1b} replace
