@@ -16,10 +16,13 @@ Notable Creations:
 
 - Conjurer Clash: Made by @RemorsEcoDe. A re-creation of the spell-casting mechanics from the Dota 2 hero Invoker made into a deathmatch game mode, but with 36 all new spells!
 ![image](https://user-images.githubusercontent.com/64080254/216373072-55c646d7-b521-47a1-90a7-584c9f2f1580.png)
+![image](https://user-images.githubusercontent.com/64080254/216374509-81efc594-005a-4972-9808-28c70e699a22.png)
 ![view link for video](https://gfycat.com/academicelegantantarcticfurseal)
 
 - Magebinders: A fully customizable arena battler where players buy certain spell types, and can upgrade each spell by modifying its effect and stats each round. For example, a player can modify a projectile spell to cast multiple projectiles. INCOMPLETE
+ 
 ![image](https://user-images.githubusercontent.com/64080254/216373305-26da6bdb-b8dc-4ea4-8361-d1ca0b64c3ba.png)
+
 ![image](https://user-images.githubusercontent.com/64080254/216373360-8130f472-fbc8-48fb-8e35-bb0c85c0f049.png)
 
 - PvP: A class-based arena battler. Each class has their unique skills and weapons. Notable classes include:
