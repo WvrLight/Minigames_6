@@ -1,6 +1,8 @@
 # Minigames_6
 Minecraft Datapack
 
+[CHECK OUT MINIGAMES_7!](https://github.com/WvrLight/Minigames_7)
+
 Some of the code used for our private Minigames_6 server.
 ![image](https://user-images.githubusercontent.com/64080254/216371372-1d9312d3-5455-43fe-ab0b-6b019cdb160f.png)
 
